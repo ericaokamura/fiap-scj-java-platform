@@ -814,3 +814,18 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:58:01.936
 !MESSAGE executing callback sts4.classpath.GrTHoYcM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 22:25:51.126
+!MESSAGE Preparing classpath changed notification java-platform
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 22:25:51.126
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 22:25:51.126
+!MESSAGE buffering callback sts4.classpath.GrTHoYcM java-platform true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 22:25:51.127
+!MESSAGE executing callback sts4.classpath.GrTHoYcM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 22:25:51.136
+!MESSAGE executing callback sts4.classpath.GrTHoYcM SUCCESS [done]
