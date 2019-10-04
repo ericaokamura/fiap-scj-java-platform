@@ -1,0 +1,13 @@
+
+public class Motorista extends Funcionario {
+
+	Motorista(int xNumero, String xNome) {
+		System.out.println("construtor motorista");
+		super(xNumero, xNome);
+	}
+	
+	void dirige() {
+		System.out.println("Motorista dirige");
+	}
+
+}

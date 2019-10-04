@@ -1,0 +1,5 @@
+public interface ControleBonificacao {
+
+	void registra(Funcionario func);
+	
+}

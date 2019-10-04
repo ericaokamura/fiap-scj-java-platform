@@ -1,0 +1,20 @@
+public class Funcionario {
+	
+	private int numero;
+	
+	private String nome;
+	
+	Funcionario (int xNumero, String xNome) {
+		System.out.println("construtor funcionario");
+		numero = xNumero;
+		nome = xNome;
+	}
+	
+	void trabalha() {
+		
+	}
+	
+	
+	
+
+}

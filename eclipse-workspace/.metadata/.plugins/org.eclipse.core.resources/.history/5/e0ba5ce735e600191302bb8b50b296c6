@@ -1,0 +1,11 @@
+public class ControleBonificacao {
+	
+	private static int bonificacao;
+
+	void registra(Funcionario func);
+	
+	int getTotalBonificacao() {
+		return 
+	}
+	
+}

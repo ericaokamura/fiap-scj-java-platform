@@ -1,0 +1,14 @@
+package desafio;
+
+public class ContaPoupanca extends ContaBancaria {
+
+	private String titularString;
+	private double saldo;
+	private long numero;
+	
+	ContaCorrente (String titular, double saldo, long numero) {
+		this.titular = titular;
+		this.saldo = saldo;
+		this.numero = numero;
+	}
+}

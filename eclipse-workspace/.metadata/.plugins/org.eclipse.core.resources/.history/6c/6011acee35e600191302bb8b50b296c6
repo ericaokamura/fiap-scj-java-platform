@@ -1,0 +1,13 @@
+public class ControleBonificacao {
+	
+	private static int totaBonificacao;
+
+	void registra(Funcionario func) {
+		totalBonificacao += func.getBonificacao();
+	}
+	
+	int getTotalBonificacao() {
+		return 
+	}
+	
+}

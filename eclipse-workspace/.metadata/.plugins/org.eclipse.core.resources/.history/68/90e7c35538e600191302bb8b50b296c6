@@ -1,0 +1,14 @@
+package desafio;
+
+public class ContaCorrente extends ContaBancaria {
+	
+	private double saldo;
+
+	void saque(double valor) {
+		this.saldo = this.saldo - (valor + 0.1);
+	}
+	
+	String getTipo() {
+		return "Corrente";
+	}
+}
