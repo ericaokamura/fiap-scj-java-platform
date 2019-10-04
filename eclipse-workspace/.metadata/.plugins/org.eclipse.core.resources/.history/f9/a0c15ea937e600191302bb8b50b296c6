@@ -1,8 +1,0 @@
-package desafio;
-
-public class ContaCorrente extends ContaBancaria {
-
-	void saque(double valor) {
-		this.saldo = this.saldo - valor - 0.1;
-	}
-}

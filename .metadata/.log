@@ -663,3 +663,36 @@ java.lang.Exception: The project description file (.project) for 'java-platform'
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:53:39.956
 !MESSAGE executing callback sts4.classpath.GrTHoYcM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:11.186
+!MESSAGE Preparing classpath changed notification java-platform
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:11.186
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:11.187
+!MESSAGE buffering callback sts4.classpath.GrTHoYcM java-platform true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:11.187
+!MESSAGE executing callback sts4.classpath.GrTHoYcM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:11.194
+!MESSAGE executing callback sts4.classpath.GrTHoYcM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:22.913
+!MESSAGE Preparing classpath changed notification java-platform
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:22.913
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:22.916
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:22.916
+!MESSAGE buffering callback sts4.classpath.GrTHoYcM java-platform false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:22.917
+!MESSAGE executing callback sts4.classpath.GrTHoYcM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:55:22.925
+!MESSAGE executing callback sts4.classpath.GrTHoYcM SUCCESS [done]

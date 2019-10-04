@@ -1,9 +1,0 @@
-
-public class Motorista extends Funcionario {
-
-	Motorista(int xNumero, String xNome) {
-		super(xNumero, xNome);
-		// TODO Auto-generated constructor stub
-	}
-
-}
