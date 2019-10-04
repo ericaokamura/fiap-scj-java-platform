@@ -781,3 +781,36 @@ Caused by: java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
 	... 64 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:57:37.950
+!MESSAGE Preparing classpath changed notification java-platform
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:57:37.951
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:57:37.951
+!MESSAGE buffering callback sts4.classpath.GrTHoYcM java-platform true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:57:37.952
+!MESSAGE executing callback sts4.classpath.GrTHoYcM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:57:37.966
+!MESSAGE executing callback sts4.classpath.GrTHoYcM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:58:01.928
+!MESSAGE Preparing classpath changed notification java-platform
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:58:01.929
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:58:01.931
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:58:01.932
+!MESSAGE buffering callback sts4.classpath.GrTHoYcM java-platform false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:58:01.932
+!MESSAGE executing callback sts4.classpath.GrTHoYcM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-03 21:58:01.936
+!MESSAGE executing callback sts4.classpath.GrTHoYcM SUCCESS [done]
