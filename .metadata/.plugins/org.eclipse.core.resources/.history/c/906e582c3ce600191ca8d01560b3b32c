@@ -1,0 +1,13 @@
+package desafio;
+
+public class ContaPoupanca extends ContaBancaria {
+
+	private String titular;
+	private double saldo;
+	private long numero;
+	
+	String getTipo() {
+		return "Poupança";
+	}
+	
+}

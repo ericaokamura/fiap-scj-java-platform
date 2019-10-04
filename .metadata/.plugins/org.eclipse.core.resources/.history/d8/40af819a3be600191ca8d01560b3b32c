@@ -1,0 +1,29 @@
+package desafio;
+
+public class TestaConta {
+
+	
+	public static void main(String[] args) {
+		
+		ContaCorrente c1 = new ContaCorrente();
+		c1.setTitular("Erica");
+		c1.setNumero(1234);
+		
+		ContaPoupanca c2 = new ContaPoupanca();
+		c2.setTitular("Dani");
+		c2.setNumero(5678);
+		
+		
+		c1.deposita(200.00);
+		c1.saque(50.00);
+		System.out.println(c1.getSaldo());
+		System.out.println(c1.getTitular());
+		System.out.println(c1.getTipo());
+
+		c2.deposita(300.00);
+		c2.saque(150.00);
+		System.out.println(c2.getSaldo());
+		System.out.println(c2.getTitular());
+		System.out.println(c2.getTipo());
+	}
+}

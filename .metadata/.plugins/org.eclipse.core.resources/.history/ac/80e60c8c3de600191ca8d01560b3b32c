@@ -1,0 +1,40 @@
+package desafio;
+
+public class ContaBancaria {
+	
+	private String titular;
+	
+	private double saldo;
+	
+	private long numero;
+	
+	
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public void setNumero(long numero) {
+		this.numero = numero;
+	}
+
+	double getSaldo(){
+		return this.saldo;
+	}
+	
+	String getTitular() {
+		return this.titular;
+	}
+	
+	void saque(double valor){
+		this.saldo -= valor;
+	}
+	
+	void deposita(double valor) {
+		this.saldo += valor;
+	}
+	
+	String getTipo() {
+		return "Conta";
+	}
+
+}
