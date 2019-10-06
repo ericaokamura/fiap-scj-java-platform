@@ -1,22 +1,39 @@
 package desafio_interface;
 
+import javax.swing.JOptionPane;
+
 public class TestaCalculadora {
 	
 	public static void main(String[] args) {
 		
 		CalculadoraBasica c = new CalculadoraEspecial();
 		
-		float soma = c.somar(12.32f, 12.40f);
-		System.out.println(soma);
+		String[] ops = {"soma", "subtração", "divisão", "multiplicação"};
 		
-		float subtracao = c.subtrair(12.45f, 10.00f);
-		System.out.println(subtracao);
+		Object operacao = JOptionPane.showInputDialog(null,"Selecione uma operação:", "Operações", JOptionPane.QUESTION_MESSAGE, null, ops, ops[0]);
 		
-		float divisao = c.dividir(34.50f, 5.0f);
-		System.out.println(divisao);
+		float f1 = Float.parseFloat(JOptionPane.showInputDialog(null, "Primeiro número: "));
 		
-		float multiplicacao = c.multiplicar(12.30f, 3.00f);
-		System.out.println(multiplicacao);
+		float f2 = Float.parseFloat(JOptionPane.showInputDialog(null, "Segundo número: "));
+				
+		switch(operacao.toString()){
+		case "soma" : 
+			float soma = c.somar(f1, f2);
+			System.out.println(soma);
+			break;
+		case "subtração": 			
+			float subtracao = c.subtrair(f1, f2);
+			System.out.println(subtracao);	
+			break;
+		case "divisão":
+			float divisao = c.dividir(f1, f2);
+			System.out.println(divisao);
+			break;
+		case "multiplicação":	
+			float multiplicacao = c.multiplicar(f1, f2);
+			System.out.println(multiplicacao);
+			break;
+		}
 		
 	}
 
